@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.py.assignment.runner.AppTest" time="0.028" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/prakhar/Desktop/BITS/SEM-I/CC/Mini-project/blog-portal/runner/target/test-classes:/home/prakhar/Desktop/BITS/SEM-I/CC/Mini-project/blog-portal/runner/target/classes:/home/prakhar/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/prakhar/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/prakhar/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/prakhar/.m2/repository/mysql/mysql-connector-java/8.0.28/mysql-connector-java-8.0.28.jar:/home/prakhar/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar:/home/prakhar/.m2/repository/org/jboss/weld/se/weld-se-core/5.0.1.Final/weld-se-core-5.0.1.Final.jar:/home/prakhar/.m2/repository/org/jboss/weld/environment/weld-environment-common/5.0.1.Final/weld-environment-common-5.0.1.Final.jar:/home/prakhar/.m2/repository/org/jboss/weld/weld-core-impl/5.0.1.Final/weld-core-impl-5.0.1.Final.jar:/home/prakhar/.m2/repository/org/jboss/weld/weld-api/5.0.SP2/weld-api-5.0.SP2.jar:/home/prakhar/.m2/repository/org/jboss/weld/weld-spi/5.0.SP2/weld-spi-5.0.SP2.jar:/home/prakhar/.m2/repository/jakarta/el/jakarta.el-api/5.0.1/jakarta.el-api-5.0.1.jar:/home/prakhar/.m2/repository/org/jboss/logging/jboss-logging/3.5.0.Final/jboss-logging-3.5.0.Final.jar:/home/prakhar/.m2/repository/org/jboss/weld/weld-lite-extension-translator/5.0.1.Final/weld-lite-extension-translator-5.0.1.Final.jar:/home/prakhar/.m2/repository/jakarta/interceptor/jakarta.interceptor-api/2.1.0/jakarta.interceptor-api-2.1.0.jar:/home/prakhar/.m2/repository/org/jboss/logging/jboss-logging-processor/2.2.1.Final/jboss-logging-processor-2.2.1.Final.jar:/home/prakhar/.m2/repository/org/jboss/logging/jboss-logging-annotations/2.2.1.Final/jboss-logging-annotations-2.2.1.Final.jar:/home/prakhar/.m2/repository/org/jboss/jdeparser/jdeparser/2.0.3.Final/jdeparser-2.0.3.Final.jar:/home/prakhar/.m2/repository/org/jboss/weld/probe/weld-probe-core/5.0.1.Final/weld-probe-core-5.0.1.Final.jar:/home/prakhar/.m2/repository/jakarta/enterprise/jakarta.enterprise.cdi-api/4.0.1/jakarta.enterprise.cdi-api-4.0.1.jar:/home/prakhar/.m2/repository/jakarta/enterprise/jakarta.enterprise.lang-model/4.0.1/jakarta.enterprise.lang-model-4.0.1.jar:/home/prakhar/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.0/jakarta.annotation-api-2.1.0.jar:/home/prakhar/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/home/prakhar/.m2/repository/org/jboss/classfilewriter/jboss-classfilewriter/1.2.5.Final/jboss-classfilewriter-1.2.5.Final.jar:/home/prakhar/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/prakhar/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/prakhar/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0/javax.ws.rs-api-2.0.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/home/prakhar/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.4.v20221004-1257/jre/lib"/>
+    <property name="sun.java.command" value="/home/prakhar/Desktop/BITS/SEM-I/CC/Mini-project/blog-portal/runner/target/surefire/surefirebooter1637164599817882085.jar /home/prakhar/Desktop/BITS/SEM-I/CC/Mini-project/blog-portal/runner/target/surefire 2022-11-22T23-19-44_262-jvmRun1 surefire17023387921388461697tmp surefire_016665515948982366069tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/prakhar/Desktop/BITS/SEM-I/CC/Mini-project/blog-portal/runner/target/test-classes:/home/prakhar/Desktop/BITS/SEM-I/CC/Mini-project/blog-portal/runner/target/classes:/home/prakhar/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/prakhar/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/prakhar/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/prakhar/.m2/repository/mysql/mysql-connector-java/8.0.28/mysql-connector-java-8.0.28.jar:/home/prakhar/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar:/home/prakhar/.m2/repository/org/jboss/weld/se/weld-se-core/5.0.1.Final/weld-se-core-5.0.1.Final.jar:/home/prakhar/.m2/repository/org/jboss/weld/environment/weld-environment-common/5.0.1.Final/weld-environment-common-5.0.1.Final.jar:/home/prakhar/.m2/repository/org/jboss/weld/weld-core-impl/5.0.1.Final/weld-core-impl-5.0.1.Final.jar:/home/prakhar/.m2/repository/org/jboss/weld/weld-api/5.0.SP2/weld-api-5.0.SP2.jar:/home/prakhar/.m2/repository/org/jboss/weld/weld-spi/5.0.SP2/weld-spi-5.0.SP2.jar:/home/prakhar/.m2/repository/jakarta/el/jakarta.el-api/5.0.1/jakarta.el-api-5.0.1.jar:/home/prakhar/.m2/repository/org/jboss/logging/jboss-logging/3.5.0.Final/jboss-logging-3.5.0.Final.jar:/home/prakhar/.m2/repository/org/jboss/weld/weld-lite-extension-translator/5.0.1.Final/weld-lite-extension-translator-5.0.1.Final.jar:/home/prakhar/.m2/repository/jakarta/interceptor/jakarta.interceptor-api/2.1.0/jakarta.interceptor-api-2.1.0.jar:/home/prakhar/.m2/repository/org/jboss/logging/jboss-logging-processor/2.2.1.Final/jboss-logging-processor-2.2.1.Final.jar:/home/prakhar/.m2/repository/org/jboss/logging/jboss-logging-annotations/2.2.1.Final/jboss-logging-annotations-2.2.1.Final.jar:/home/prakhar/.m2/repository/org/jboss/jdeparser/jdeparser/2.0.3.Final/jdeparser-2.0.3.Final.jar:/home/prakhar/.m2/repository/org/jboss/weld/probe/weld-probe-core/5.0.1.Final/weld-probe-core-5.0.1.Final.jar:/home/prakhar/.m2/repository/jakarta/enterprise/jakarta.enterprise.cdi-api/4.0.1/jakarta.enterprise.cdi-api-4.0.1.jar:/home/prakhar/.m2/repository/jakarta/enterprise/jakarta.enterprise.lang-model/4.0.1/jakarta.enterprise.lang-model-4.0.1.jar:/home/prakhar/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.0/jakarta.annotation-api-2.1.0.jar:/home/prakhar/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/home/prakhar/.m2/repository/org/jboss/classfilewriter/jboss-classfilewriter/1.2.5.Final/jboss-classfilewriter-1.2.5.Final.jar:/home/prakhar/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/prakhar/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/prakhar/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0/javax.ws.rs-api-2.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/prakhar"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-12"/>
+    <property name="java.home" value="/home/prakhar/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.4.v20221004-1257/jre"/>
+    <property name="file.separator" value="/"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="/home/prakhar/Desktop/BITS/SEM-I/CC/Mini-project/blog-portal/runner"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/prakhar/Desktop/BITS/SEM-I/CC/Mini-project/blog-portal/runner/target/surefire/surefirebooter1637164599817882085.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.4.1+1"/>
+    <property name="user.name" value="prakhar"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.15.0-53-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.4.1+1"/>
+    <property name="localRepository" value="/home/prakhar/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.4.1"/>
+    <property name="user.dir" value="/home/prakhar/Desktop/BITS/SEM-I/CC/Mini-project/blog-portal/runner"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.4.1+1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.py.assignment.runner.AppTest" time="0.002"/>
+</testsuite>
